@@ -24,5 +24,7 @@
 #    return view('welcome');
 #});
 
-Route::get('/', 'homeController@home');
+Route::get('/', 'pagesController@template');
+Route::get('/about', 'pagesController@about');
+Route::get('/contact', 'pagesController@contact');
 
