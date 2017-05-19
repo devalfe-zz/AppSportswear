@@ -20,8 +20,8 @@
 #    return $nombre;
 #});
 
-#Route::get('/', function () {
-#    return view('welcome');
+#Route::get('blade', function () {
+#    return view('about');
 #});
 
 Route::get('/', 'pagesController@template');

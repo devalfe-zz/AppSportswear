@@ -1,3 +1,4 @@
+@section('title', 'inicio')
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
 <head>
@@ -19,11 +20,8 @@
             <div class="content">
                 <div class="btn btn-primary title m-b-md">
                     Devalfe inicio template
-                    @section('about')
-                        @yield('template.about')
-                    @endsection
                 </div>
-                
+                 @yield('content') 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
