@@ -2,3 +2,5 @@
 <script src="{{asset('themes/deval/js/jquery.min.js')}}"></script>
 <script src="{{asset('themes/deval/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('themes/deval/js/appscripts.min.js')}}"></script>
+<script src="{{asset('themes/deval/js/material.min.js')}}"></script>
+<script src="{{asset('themes/deval/js/ripples.min.js')}}"></script>

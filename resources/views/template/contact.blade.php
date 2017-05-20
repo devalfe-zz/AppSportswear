@@ -1,5 +1,5 @@
 @extends('template')
-@section ('title', 'about')
+@section ('title', 'contact')
 @section ('content')
 <div class="card">
   <img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">
