@@ -12,7 +12,6 @@
 <meta name="geo.region" content="@yield('region','default')" />
 <meta name="geo.position" content="@yield('position','default')" />
 <meta name="ICBM" content="@yield('ICBM','default')" />
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="{{asset('themes/deval/css/font-awesome.min.css')}}" />
 <link rel="stylesheet" href="{{asset('themes/deval/css/appstyles.min.css')}}" />

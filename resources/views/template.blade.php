@@ -12,7 +12,7 @@
 @include('template.header')
 </headder>
     <div class="container">
-        <div class="btn btn-raised btn-primary btn-lg title m-b-md">
+        <div class="btn btn-raised btn-primary btn-lg">
             Devalfe inicio template
         </div>
         @yield('content') 
