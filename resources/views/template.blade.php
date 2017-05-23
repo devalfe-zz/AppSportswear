@@ -1,16 +1,17 @@
-@section('title', 'inicio')
 <!DOCTYPE html>
+@section('title')
+@lang('auth.failed')
+@endsection
 <html lang="{{config('app.locale')}}">
 <head>
 @include('template.head')
 </head>
-<body>
-<!--.preloader-->
-<div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-<!--/.preloader-->
-<headder>
+<body class="cms-home-page">
+<div id="page">
+<header>
 @include('template.header')
-</headder>
+</header>
+
     <div class="container">
         <div class="btn btn-raised btn-primary btn-lg">
             Devalfe inicio template
@@ -21,5 +22,6 @@
 @include('template.footer')
 </footer>
 @include('template.script')
+</div>
 </body>
 </html>

@@ -1,31 +1,22 @@
-    <div class="header-container">
+<div class="header-container">
       <div class="header-top">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-5 col-xs-6"> 
+          <div class="py-1 row">
+            <div class="col-md-6 col-sm-5 col-6"> 
               <!-- Default Welcome Message --> 
-              <span class="phone hidden-xs hidden-sm"><i class="fa fa-phone fa-lg"></i> +123.456.789</span>
-
-              <div class="welcome-msg hidden-xs">Welcome to BigShop! </div>
+              <span class="phone hidden-xs-down hidden-sm-up"><i class="fa fa-phone fa-lg"></i> +123.456.789</span>
+              <div class="welcome-msg hidden-xs-down">Welcome to BigShop! </div>
               <div class="language-currency-wrapper">
                 <div class="inner-cl">
-
-                    <div class="block block-language form-language">
-                    <div class="lg-cur"> <span> <img src="images/flag-default.jpg" alt="French"> <span class="lg-fr">French</span> <i class="fa fa-angle-down"></i> </span> </div>
+                  <div class="block block-language form-language">
+                    <div class="lg-cur"> <span> <img src="{{url('themes/deval/images/flag-spain.jpg')}}" alt="Spain"> <span class="lg-fr">Spain</span> <i class="fa fa-angle-down"></i> </span> </div>
                     <ul>
-                      <li> <a class="selected" href="#"> <img src="images/flag-english.jpg" alt="flag"> <span>English</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-default.jpg" alt="flag"> <span>French</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-german.jpg" alt="flag"> <span>German</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-brazil.jpg" alt="flag"> <span>Brazil</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-chile.jpg" alt="flag"> <span>Chile</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-spain.jpg" alt="flag"> <span>Spain</span> </a> </li>
+                      <li> <a class="selected" href="#"> <img src="{{url('themes/deval/images/flag-english.jpg')}}" alt="flag"> <span>English</span> </a> </li>
                     </ul>
                   </div>
                   <div class="block block-currency">
-                    <div class="item-cur"> <span>USD </span> <i class="fa fa-angle-down"></i></div>
+                    <div class="item-cur">S/.<span> PEN</span> <i class="fa fa-angle-down"></i></div>
                     <ul>
-                      <li> <a href="#"><span class="cur_icon">€</span> EUR</a> </li>
-                      <li> <a href="#"><span class="cur_icon">¥</span> JPY</a> </li>
                       <li> <a class="selected" href="#"><span class="cur_icon">$</span> USD</a> </li>
                     </ul>
                   </div>
@@ -34,11 +25,11 @@
             </div>
             
             <!-- top links -->
-            <div class="headerlinkmenu col-lg-6 col-md-6 col-sm-7 col-xs-6 text-right">
+            <div class="d-flex align-items-center headerlinkmenu col-lg-6 col-md-6 col-sm-7 col-6 justify-content-end">
               <div class="links">
                 <div class="jtv-user-info">
                   <div class="dropdown"> <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account </span> <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
+                    <ul class="dropdown-menu down-menu" role="menu">
                       <li><a href="account_page.html">Account</a></li>
                       <li><a href="wishlist.html">Wishlist</a></li>
                       <li><a href="checkout.html">Checkout</a></li>
@@ -48,8 +39,8 @@
                     </ul>
                   </div>
                 </div>
-                <div class="services hidden-xs"><a title="servicesg" href="#">Services</a></div>
-                <div class="myaccount hidden-xs"><a title="My Account" href="#">My Support</a></div>
+                <div class="services hidden-xs-down"><a title="servicesg" href="#">Services</a></div>
+                <div class="myaccount hidden-xs-down"><a title="My Account" href="#">My Support</a></div>
               </div>
             </div>
           </div>
@@ -57,19 +48,19 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 col-md-3 col-xs-12"> 
+          <div class="col-sm-3 col-md-3 col-12"> 
             <!-- Header Logo -->
-            <div class="logo"><a title="e-commerce" href="index.html"><img alt="e-commerce" src="images/logo.png"></a> </div>
+            <div class="d-flex justify-content-center logo"><a title="e-commerce" href="index.html"><img alt="e-commerce" src="{{url('themes/deval/images/logo.png')}}"></a> </div>
             <!-- End Header Logo --> 
           </div>
-          <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6"> 
+          <div class="col-9 col-sm-6 col-md-6"> 
             <!-- Search -->
             
-            <div class="top-search">
+            <div class="d-flex justify-content-center top-search">
               <div id="search">
                 <form>
                   <div class="input-group">
-                    <select class="cate-dropdown hidden-xs hidden-sm" name="category_id">
+                    <select class="cate-dropdown hidden-xs-down hidden-sm-down" name="category_id">
                       <option>All Categories</option>
                       <option>women</option>
                       <option>&nbsp;&nbsp;&nbsp;Accessories </option>
@@ -92,42 +83,42 @@
             
             <!-- End Search --> 
           </div>
-          <div class="col-lg-3 col-sm-4 col-xs-12 top-cart">
-            <div class="link-wishlist"> <a href="#"> <span class="wishlist-count">3</span> <i class="fa fa-heart fa-lg"></i> </a> </div>
+         <div class="col-lg-3 col-3 top-cart">
             <div class="top-cart-contain">
-              <div class="mini-cart">
-                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a href="#">
+                <div class="mini-cart">
+                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle" aria-expanded="true"> <a href="#">
                   <div class="cart-icon"><i class="fa fa-shopping-cart"></i></div>
-                  <div class="shoppingcart-inner"><span class="cart-title">Shopping Cart</span> <span class="cart-total">4 Item(s): $520.00</span></div>
-                  </a></div>
+                  <div class="shoppingcart-inner hidden-md-down"><span class="cart-title">Shopping Cart</span> <span class="cart-total">4 Item(s): $520.00</span></div>
+                  </a></div><div class="dropdown-backdrop"></div>
                 <div>
                   <div class="top-cart-content">
                     <div class="block-subtitle hidden-xs">Recently added item(s)</div>
                     <ul id="cart-sidebar" class="mini-products-list">
-                      <li class="item odd"> <a href="#" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img07.jpg" alt="Lorem ipsum dolor" width="65"></a>
-                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
-                          <p class="product-name"><a href="#">Lorem ipsum dolor sit amet Consectetur</a> </p>
+                      <li class="item odd"> <a href="shopping_cart.html" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img07.jpg" alt="Lorem ipsum dolor" width="65"></a>
+                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                          <p class="product-name"><a href="shopping_cart.html">Lorem ipsum dolor sit amet Consectetur</a> </p>
                           <strong>1</strong> x <span class="price">$20.00</span> </div>
                       </li>
-                      <li class="item even"> <a href="#" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img08.jpg" alt="Lorem ipsum dolor" width="65"></a>
-                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
-                          <p class="product-name"><a href="#">Consectetur utes anet adipisicing elit</a> </p>
+                      <li class="item even"> <a href="shopping_cart.html" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img11.jpg" alt="Lorem ipsum dolor" width="65"></a>
+                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                          <p class="product-name"><a href="shopping_cart.html">Consectetur utes anet adipisicing elit</a> </p>
                           <strong>1</strong> x <span class="price">$230.00</span> </div>
                       </li>
-                      <li class="item last odd"> <a href="#" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img10.jpg" alt="Lorem ipsum dolor" width="65"></a>
-                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
-                          <p class="product-name"><a href="#">Sed do eiusmod tempor incidist</a> </p>
+                      <li class="item last odd"> <a href="shopping_cart.html" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img10.jpg" alt="Lorem ipsum dolor" width="65"></a>
+                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="fa fa-times-circle" aria-hidden="true""></i></a>
+                          <p class="product-name"><a href="shopping_cart.html">Sed do eiusmod tempor incidist</a> </p>
                           <strong>2</strong> x <span class="price">$420.00</span> </div>
                       </li>
                     </ul>
                     <div class="top-subtotal">Subtotal: <span class="price">$520.00</span></div>
                     <div class="actions">
-                      <button onclick="location.href='checkout.html'" class="btn-checkout" type="button"><i class="fa fa-check"></i><span>Checkout</span></button>
-                      <button onclick="location.href='shopping_cart.html'" class="view-cart" type="button"><i class="fa fa-shopping-cart"></i> <span>View Cart</span></button>
+                      <button class="btn btn-raised btn-default" id="btn-checkout" type="button"><i class="fa fa-check"></i><span>Checkout</span></button>
+                      <button class="btn btn-raised btn-primary" id="view-cart" type="button"><i class="fa fa-shopping-cart"></i> <span>View Cart</span></button>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
