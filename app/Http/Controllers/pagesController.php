@@ -15,7 +15,7 @@ class pagesController extends Controller
     public function template()
     {
         //
-        return view('template');
+        return view('template/inicio');
     }
     public function about()
     {

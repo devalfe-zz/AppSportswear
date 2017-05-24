@@ -1,4 +1,5 @@
-<div class="header-container">
+<div id="page">
+<header>
       <div class="header-top">
         <div class="container">
           <div class="py-1 row">
@@ -89,7 +90,7 @@
                 <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle" aria-expanded="true"> <a href="#">
                   <div class="cart-icon"><i class="fa fa-shopping-cart"></i></div>
                   <div class="shoppingcart-inner hidden-md-down"><span class="cart-title">Shopping Cart</span> <span class="cart-total">4 Item(s): $520.00</span></div>
-                  </a></div><div class="dropdown-backdrop"></div>
+                  </a></div>
                 <div>
                   <div class="top-cart-content">
                     <div class="block-subtitle hidden-xs">Recently added item(s)</div>
@@ -122,6 +123,4 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  
+</header>
