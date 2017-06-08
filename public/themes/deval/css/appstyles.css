@@ -147,7 +147,6 @@ body {
 .headerlinkmenu div.links div a {
   display: inline-block;
   padding: 0px;
-  padding: 8px 0px 6px 5px;
   text-decoration: none;
   letter-spacing: 0.5px;
   color: #000000; }
@@ -158,14 +157,6 @@ body {
 .headerlinkmenu .jtv-user-info .dropdown-menu li a {
   padding: 6px 15px;
   width: 100%; }
-
-.headerlinkmenu div.links div a {
-  display: inline-block;
-  padding: 0px;
-  padding: 8px 0px 6px 5px;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-  color: #000000; }
 
 .jtv-user-info .dropdown-menu {
   padding: 0px;

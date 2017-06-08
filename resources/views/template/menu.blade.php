@@ -1,6 +1,6 @@
 <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="mm-toggle-wrap">
-            <div class="mm-toggle"> <i class="fa fa-align-justify"></i> </div>
+            <div class="mm-toggle"><i class="fa fa-align-justify"></i> </div>
             <span class="mm-label">Categories</span> </div>
             <div class="mega-container hidden-sm-down">
             <div class="navleft-container">

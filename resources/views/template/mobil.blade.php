@@ -1,22 +1,62 @@
 <div id="mobile-menu" style="left: -250px; width: 250px;">
   <ul class="mobile-menu">
+
+  <div id="accordion" >
+<div class="card">
+  <div class="card-header">
+  <h5 class="mb-0">
+      <a data-toggle="collapse" data-parent="#accordion" href="#home" >HOME</a>
+  </h5>
+  </div>
+  <div id="home" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
+  <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Articles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-flash text-success"></span><a href="http://www.jquery2dotnet.com">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-file text-info"></span><a href="http://www.jquery2dotnet.com">Newsletters</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-comment text-success"></span><a href="http://www.jquery2dotnet.com">Comments</a>
+                                        <span class="badge">42</span>
+                                    </td>
+                                </tr>
+                            </table>
+  </div>
+</div>
+
+</div>
   <div id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="card">
-    <div class="card-header" role="tab" id="headingOne">
+  <div >
+    <div class="card-header" >
       <h5 class="mb-0">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+          Home
         </a>
       </h5>
     </div>
-
     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
       <div class="card-block">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+      <ul class="list-group">
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
       </div>
     </div>
+
   </div>
-  <div class="card">
+  <div>
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -31,8 +71,9 @@
     </div>
   </div>
 </div>
+
     <li><span class="expand fa-plus fa" style="padding-bottom: 12px; padding-top: 12px;"></span><a href="index.html" class="home1" style="padding-right: 55px;">Home</a>
-      <ul style="display: none;">
+      <ul >
         <li><a href="index.html" style="padding-right: 55px;"><span class="fa fa-plus" style="padding-bottom: 12px; padding-top: 12px;">Home Version 1</span></a></li>
         <li><a href="../Version2/index.html" style="padding-right: 55px;"><span class="fa fa-plus" style="padding-bottom: 12px; padding-top: 12px;">Home Version 2</span></a></li>
         <li><a href="../Version3/index.html" style="padding-right: 55px;"><span class="fa fa-plus" style="padding-bottom: 12px; padding-top: 12px;">Home Version 3</span></a></li>

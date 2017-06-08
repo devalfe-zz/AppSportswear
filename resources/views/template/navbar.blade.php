@@ -6,10 +6,10 @@
           <div class="mtmegamenu">
             <ul>
               <li class="mt-root demo_custom_link_cms">
-                <div class="mt-root-item"><a href="">
+                <div class="mt-root-item"><a href="{{ url('/') }}">
                   <div class="title title_font"><span class="title-text">Home</span></div>
                   </a></div>
-                <ul class="menu-items col-12">
+                <ul class="menu-items">
                   <li class="menu-item depth-1">
                     <div class="title">
                       <a href="index.html"><span>Home Version 1</span>
@@ -37,7 +37,7 @@
                 <div class="mt-root-item"><a href="#">
                   <div class="title title_font"><span class="title-text">Page</span></div>
                   </a></div>
-                <ul class="menu-items col-12">
+                <ul class="menu-items">
                   <li class="menu-item depth-1 menucol-1-3 ">
                     <div class="title title_font"> <a href="#"> Shop Pages </a></div>
                     <ul class="submenu">
@@ -152,12 +152,12 @@
                 </ul>
               </li>
               <li class="mt-root">
-                <div class="mt-root-item"><a href="contact">
+                <div class="mt-root-item"><a href="{{ url('contact') }}">
                   <div class="title title_font"><span class="title-text">Contact Us</span> </div>
                   </a></div>
               </li>
               <li class="mt-root">
-                <div class="mt-root-item"><a href="about">
+                <div class="mt-root-item"><a href="{{ url('about') }}">
                   <div class="title title_font"><span class="title-text">about us</span></div>
                   </a></div>
               </li>
@@ -165,7 +165,7 @@
                 <div class="mt-root-item"><a href="blog.html">
                   <div class="title title_font"><span class="title-text">Blog</span></div>
                   </a></div>
-                <ul class="menu-items col-md-3 col-sm-4 col-xs-12">
+                <ul class="menu-items ">
                   <li class="menu-item depth-1">
                     <div class="title"> <a href="blog_right_sidebar.html"> Blog – Right Sidebar </a></div>
                   </li>
@@ -184,7 +184,7 @@
                 <div class="mt-root-item">
                   <div class="title title_font"><span class="title-text">Best Seller</span></div>
                 </div>
-                <ul class="menu-items col-xs-12">
+                <ul class="menu-items">
                   <li class="menu-item depth-1 product menucol-1-3 withimage">
                     <div class="product-item">
                       <div class="item-inner">

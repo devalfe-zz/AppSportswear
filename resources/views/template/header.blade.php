@@ -2,8 +2,8 @@
 <header>
       <div class="header-top">
         <div class="container">
-          <div class="py-1 row">
-            <div class="col-md-6 col-sm-5 col-6"> 
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-7 col-7"> 
               <!-- Default Welcome Message --> 
               <span class="phone hidden-xs-down hidden-sm-up"><i class="fa fa-phone fa-lg"></i> +123.456.789</span>
               <div class="welcome-msg hidden-xs-down">Welcome to BigShop! </div>
@@ -26,7 +26,7 @@
             </div>
             
             <!-- top links -->
-            <div class="d-flex align-items-center headerlinkmenu col-lg-6 col-md-6 col-sm-7 col-6 justify-content-end">
+            <div class="d-flex align-items-center headerlinkmenu col-lg-6 col-md-6 col-sm-7 col-5 justify-content-end">
               <div class="links">
                 <div class="jtv-user-info">
                   <div class="dropdown"> <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account </span> <i class="fa fa-angle-down"></i></a>
