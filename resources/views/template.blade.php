@@ -4,22 +4,18 @@
 @endsection
 <html lang="{{config('app.locale')}}">
 <head>
-@include('template.head')
+@include('template.layout.head')
 </head>
-
 <body class="@yield('class')">
-@include('template.mobil')
-
-@include('template.header')
-
-@include('template.navbar')
+@include('template.layout.mobil')
+@include('template.layout.header')
+@include('template.layout.navbar')
 <div class="container">
 @yield('content') 
 </div>
 <footer>
-@include('template.footer')
+@include('template.layout.footer')
 </footer>
-
-@include('template.script')
+@include('template.layout.script')
 </body>
 </html>
