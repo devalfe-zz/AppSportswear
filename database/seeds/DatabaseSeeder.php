@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use AppSportswear\Menu;
+use AppSportswear\Submenu;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +12,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+        
+        Menu::truncate();
+        Submenu::truncate();
+
+        $this->call(MenusTableSeeder::class);
+        $this->call(SubmenusTableSeeder::class);
+        
     }
 }
