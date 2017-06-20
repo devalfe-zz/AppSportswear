@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Illuminate\Database\Eloquent\Model;
+use AppSportswear\Menu;
 class MenusTableSeeder extends Seeder
 {
     /**
@@ -16,9 +17,8 @@ class MenusTableSeeder extends Seeder
                 # code...
                 Menu::create(
                 [
-                    'name' => "menu $i";
-                ]
-                )
+                    'name' => "menu$i"
+                ]);
             }
            
        

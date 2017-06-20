@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Illuminate\Database\Eloquent\Model;
+use AppSportswear\Menu;
+use AppSportswear\Submenu;
 class SubmenusTableSeeder extends Seeder
 {
     /**
@@ -13,17 +15,17 @@ class SubmenusTableSeeder extends Seeder
     {
         //
         $menus = Menu::all();
+        $registro = 0;
         foreach ($menus as $menu) {
             # code...
-            $tr = rand(0,5);
+            $tr = mt_rand(0,5);
             for ($i=0; $i < $tr ; $i++) { 
-                # code...
+                $registro++;
                 Submenu::create(
                 [
-                    'name' => "submenu $i";
-                    'menu_id' => $menu->id;
-                ]
-                )
+                    'name' => "submenu $registro",
+                    'menu_id' => $menu->id
+                ]);
             }
            
         }
