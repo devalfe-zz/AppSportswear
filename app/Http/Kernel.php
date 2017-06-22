@@ -1,60 +1,40 @@
 <?php
 
-namespace AppSportswear\Http;
+namespace AppSportswear\Console;
 
-use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
-class Kernel extends HttpKernel
+class Kernel extends ConsoleKernel
 {
     /**
-     * The application's global HTTP middleware stack.
-     *
-     * These middleware are run during every request to your application.
+     * The Artisan commands provided by your application.
      *
      * @var array
      */
-    protected $middleware = [
-        \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
-        \AppSportswear\Http\Middleware\TrimStrings::class,
-        \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+    protected $commands = [
+        //
     ];
 
     /**
-     * The application's route middleware groups.
+     * Define the application's command schedule.
      *
-     * @var array
+     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @return void
      */
-    protected $middlewareGroups = [
-        'web' => [
-            \AppSportswear\Http\Middleware\EncryptCookies::class,
-            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
-            \Illuminate\Session\Middleware\StartSession::class,
-            // \Illuminate\Session\Middleware\AuthenticateSession::class,
-            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \AppSportswear\Http\Middleware\VerifyCsrfToken::class,
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        ],
-
-        'api' => [
-            'throttle:60,1',
-            'bindings',
-        ],
-    ];
+    protected function schedule(Schedule $schedule)
+    {
+        // $schedule->command('inspire')
+        //          ->hourly();
+    }
 
     /**
-     * The application's route middleware.
+     * Register the Closure based commands for the application.
      *
-     * These middleware may be assigned to groups or used individually.
-     *
-     * @var array
+     * @return void
      */
-    protected $routeMiddleware = [
-        'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
-        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        'can' => \Illuminate\Auth\Middleware\Authorize::class,
-        'guest' => \AppSportswear\Http\Middleware\RedirectIfAuthenticated::class,
-        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-    ];
+    protected function commands()
+    {
+        require base_path('routes/console.php');
+    }
 }
