@@ -15,18 +15,20 @@ class pagesController extends Controller
     public function template()
     {
         //
-        return view('template/inicio');
+        return view('template.inicio');
     }
     public function about()
     {
         //
-        return view('template/about');
+        return view('template.about');
     }
     public function contact()
     {
         //
-        return view('template/contact');
+        return view('template.contact');
     }
+
+    
     /**
      * Show the form for creating a new resource.
      *
