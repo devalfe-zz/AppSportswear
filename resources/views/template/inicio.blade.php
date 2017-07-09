@@ -5,4 +5,5 @@
 <div class="btn btn-raised btn-primary btn-lg">
 Devalfe inicio template
 </div>
+
 @endsection

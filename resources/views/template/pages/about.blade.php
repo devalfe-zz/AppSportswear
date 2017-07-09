@@ -7,6 +7,7 @@
     <button type="button" class="btn btn-secondary">Secondary</button>
     <div class="secundary title m-b-md">
         About
+       
     </div>
 </div>
 @endsection

@@ -24,6 +24,7 @@
 #    return view('about');
 #});
 
+//Route::get('/inicio', 'MenuController@index');
 Route::get('/', 'pagesController@template');
 Route::get('/about', 'pagesController@about');
 Route::get('/contact', 'pagesController@contact');

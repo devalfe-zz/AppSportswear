@@ -1,5 +1,5 @@
 <nav>
-    <div class="container">
+ <div class="container">
       <div class="row">
 @include('template.layout.menu')
         <div class="col-lg-9 col-md-8 col-sm-6">
@@ -290,4 +290,6 @@
         </div>
       </div>
     </div>
-  </nav>
+
+</nav>
+

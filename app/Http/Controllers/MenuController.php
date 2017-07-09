@@ -1,40 +1,22 @@
 <?php
 
 namespace AppSportswear\Http\Controllers;
-use AppSportswear\Menu;
-use Illuminate\Http\Request;
-use AppSportswear\Http\Requests;
 
-class pagesController extends Controller
+use Illuminate\Http\Request;
+use AppSportswear\Menu;
+class MenuController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function template()
+    public function index()
     {
-        //
-       //return view('template.inicio');
-       $menus = Menu::all();
-       return view('template.inicio', compact('menus'));
-    }
-   
-    public function about()
-    {
-        //
         $menus = Menu::all();
-        return view('template.pages.about',compact('menus'));
-        
-    }
-    public function contact()
-    {
-        //
-        $menus = Menu::all();
-        return view('template.contact',compact('menus'));
+        return view('template.inicio', compact('menus'));
     }
 
-    
     /**
      * Show the form for creating a new resource.
      *

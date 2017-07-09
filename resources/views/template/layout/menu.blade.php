@@ -9,6 +9,20 @@
               </div>
               <div class="mega-menu-category">
                 <ul class="nav flex-column">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>menu</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    @foreach($menus as $menu)
+                        <tr>
+                          <td>{!! $menu->name !!} </td>
+                        </tr>
+                    @endforeach
+                  </tbody>
+                </table>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="icon fa fa-camera fa-fw"></i>Camera &amp; Photo
                     </a>
@@ -191,4 +205,5 @@
               </div>
             </div>
           </div>
-        </div>
+</div>
+
