@@ -13,9 +13,9 @@
 <div class="container">
 @yield('content') 
 </div>
-<footer>
-@include('template.layout.footer')
-</footer>
+
+@include('template.layout.footer.footer')
+
 @include('template.layout.script')
 </body>
 </html>
