@@ -1,3 +1,4 @@
+$.material.init()
 jQuery(document).ready(function() {
     "use strict";
 
