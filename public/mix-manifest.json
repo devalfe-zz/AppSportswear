@@ -1,8 +1,6 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
-    "/themes/deval/css/appstyles.css": "/themes/deval/css/appstyles.css",
-    "/themes/deval/js/appscripts.js": "/themes/deval/js/appscripts.js",
-    "/themes/deval/js/megamenu.js": "/themes/deval/js/megamenu.js",
-    "/themes/deval/js/mobil-menu.js": "/themes/deval/js/mobil-menu.js"
+  "/js/app.js": "/js/app.js",
+  "/css/app.css": "/css/app.css",
+  "/themes/deval/css/appstyles.css": "/themes/deval/css/appstyles.css",
+  "/themes/deval/js/appscripts.js": "/themes/deval/js/appscripts.js"
 }

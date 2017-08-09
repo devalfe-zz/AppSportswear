@@ -10,7 +10,12 @@
               <div class="language-currency-wrapper">
                 <div class="inner-cl">
                   <div class="block block-language form-language">
-                    <div class="lg-cur"> <span> <img src="{{url('themes/deval/images/flag-spain.jpg')}}" alt="Spain"> <span class="lg-fr">Spain</span> <i class="fa fa-angle-down"></i> </span> </div>
+                    <div class="lg-cur"> 
+                      <span> 
+                        <img src="{{url('themes/deval/images/flag-spain.jpg')}}" alt="Spain"> <span class="lg-fr">Spain</span> 
+                        <i class="fa fa-angle-down"></i> 
+                        </span>
+                    </div>
                     <ul>
                       <li> <a class="selected" href="#"> <img src="{{url('themes/deval/images/flag-english.jpg')}}" alt="flag"> <span>English</span> </a> </li>
                     </ul>

@@ -1,5 +1,5 @@
 let mix = require('laravel-mix');
-mix.browserSync('appsportswear.dev');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

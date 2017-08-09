@@ -5,6 +5,6 @@
 <script src="{{asset('themes/deval/js/material.min.js')}}"></script>
 <script src="{{asset('themes/deval/js/ripples.min.js')}}"></script>
 
-<script src="{{mix('themes/deval/js/megamenu.js')}}"></script>
-<script src="{{mix('themes/deval/js/mobil-menu.js')}}"></script>
+<script src="{{asset('themes/deval/js/megamenu.js')}}"></script>
+<script src="{{asset('themes/deval/js/mobil-menu.js')}}"></script>
 <script src="{{mix('themes/deval/js/appscripts.js')}}"></script>
